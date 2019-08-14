@@ -620,9 +620,15 @@ h1, h2, h3, h4, h5,
     font-weight: 900;
     color: #fff; }
   .intro-section p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
     font-size: 1.1rem;
     max-width: 400px; }
+  .intro-section .sub-title {
+    color: #f3f3f4;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;;
+  }
 
 .img-absolute {
   position: absolute;
@@ -633,8 +639,8 @@ h1, h2, h3, h4, h5,
   transform: translateY(-50%); }
   .img-absolute img {
     max-width: 600px;
-    -webkit-box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4); }
+    -webkit-box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0); }
     @media (max-width: 991.98px) {
       .img-absolute img {
         max-width: 100%; } }
