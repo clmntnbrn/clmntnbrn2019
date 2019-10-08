@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
+.icon-heart {
+  color: red;
+}
+
 .border-2 {
   border-width: 2px; }
 
@@ -744,7 +748,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: "";
-    background: rgba(0, 123, 255, 0.8);
+    background: rgba(0, 123, 255, 0.9);
     z-index: 1;
     opacity: 0;
     visibility: hidden;
@@ -763,14 +767,25 @@ h1, h2, h3, h4, h5,
     transition: .3s all ease;
     margin-top: 20px; }
     .work-thumb .work-text h3 {
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: 900;
       color: #fff;
       margin: 0;
       padding: 0; }
+      .work-thumb .work-text h4 {
+        font-size: 0.8rem;
+        font-weight: 900;
+        color: #fff;
+        margin: 2rem 0 0 0;
+        padding: 0; }
     .work-thumb .work-text .category {
-      font-size: .8rem;
-      color: rgba(255, 255, 255, 0.7); }
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.9);
+      padding-top: 1.3rem: }
+      .work-thumb .work-text .role {
+        font-size: 0.8rem;
+        color: rgba(255, 255, 255, 0.9);
+        padding-top: 0: }
   .work-thumb:hover {
     z-index: 3;
     -webkit-transform: scale(1.07);
@@ -826,7 +841,7 @@ h1, h2, h3, h4, h5,
       background-color: #007bff; }
 
 .footer-section {
-  padding: 7em 0;
+  padding: 4em 0 2em 0;
   background-color: #fafafa; }
   .footer-section p {
     font-size: 1rem; }
@@ -839,6 +854,13 @@ h1, h2, h3, h4, h5,
     font-weight: 900; }
   .footer-section .footer-links li {
     margin-bottom: 10px; }
+    
+.footer-invis {
+  color: #fafafa;
+}
+  .footer-invis a {
+    color: #fafafa;
+  }
 
 .process, .service {
   position: relative; }
