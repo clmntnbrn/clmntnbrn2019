@@ -785,11 +785,11 @@ h1, h2, h3, h4, h5,
     .work-thumb .work-text .category {
       font-size: 1rem;
       color: rgba(255, 255, 255, 0.9);
-      padding-top: 1.3rem: }
+      padding-top: 1.3rem; }
       .work-thumb .work-text .role {
         font-size: 0.8rem;
         color: rgba(255, 255, 255, 0.9);
-        padding-top: 0: }
+        padding-top: 0; }
   .work-thumb:hover {
     z-index: 3;
     -webkit-transform: scale(1.07);
