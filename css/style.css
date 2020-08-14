@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5,
   border-width: 2px; }
 
 .text-black {
-  color: #000 !important; }
+  color: #fff !important; }
 
 .bg-black {
   background: #000 !important; }
@@ -169,6 +169,7 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase;
     font-weight: 900; }
 
+
 .bg-text-line {
   display: inline;
   background: #000;
@@ -201,7 +202,14 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .hover-bg-enlarge .bg-image-md-height {
       height: 300px !important; } }
-
+ 
+     
+      
+.img-fluid-small {
+  max-width: 80%;
+  height: auto;
+  text-align: center;
+  }
 .bg-image {
   background-size: cover;
   background-position: center center;
@@ -885,7 +893,8 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .process .number, .service .number {
     position: absolute;
-    top: 50px;
+    top: 60px;
+    
     left: -30px;
     line-height: 0;
     z-index: -1;
